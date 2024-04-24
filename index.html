@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link stylesheet google icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="buscador.css">
+    <link rel="icon" href="/path/to/favicon.ico">
+    <title>Googlelator</title>
+</head>
+<body>
+    <header>
+        <nav class="izquierda">
+            <div>
+            <!-- dos links izq. Header -->
+            <a href="#">Sobre Google</a>
+            
+            <a href="#">Tienda</a>
+            </div>
+        </nav>
+
+        <nav class="derecha">
+            <!-- dos links + botón redondo icono+botón azul -->
+            <a href="#">Gmail</a>
+            
+            <a href="#">Imágenes</a>
+            
+            <!-- símbolo apps -->
+            <a href="#">
+                <span class="material-symbols-outlined">
+                    apps
+                </span>
+            </a>
+            
+            <!-- botón azul -->
+            <!-- en lugar de button hacemos un link y lo pintamos como un botón para poder aplicar funcion de boton y modificarlo -->
+            <a class=butoBlau style="background-color: #1a73e8;color: white; font-size: small;padding: 10px 5px; width:150px; border:0;border-radius: 5px; text-align: center; " href="">Iniciar Sesión</a>
+            
+
+        </nav>
+    </header>
+
+    <main>
+        <div class=logo>
+            <!-- imagen logo centrada-->
+            <img src="./imagBuscador/logo.png" alt="Logo">
+        </div>
+
+        <div class="barrabusca">
+                <!-- navegador con borde redondeado y linea fina gris + -->
+                <!-- icono lupa izq.+ icono microfono colorOimagen en drive+=icono camara o imag.en drive -->
+        <!-- LUPA     -->
+            <span class="material-symbols-outlined">
+            search</span>
+        <!-- buscador modificamos tamaño del buscador,quitamos linea con el outline,quitamos el borde, añadir sombreado en hover en el css -->
+            <input type="search" style="width:400px;height: 45px; border: 0cap;outline: 0;">
+        <!-- imagenes micro+camara -->
+            <img src="./imagBuscador/micro_camara.png" alt="micro+cam">
+        </div>
+
+        <nav>
+            <!-- 2 botones centrados gris claro -->
+            <button class="buttonsGRIS">
+                <a href="#">
+                    Buscar con Google</a>
+            </button>
+            <button class="buttonsGRIS">
+                <a href="#">
+                    Voy a tener suerte</a>
+            </button>
+        </nav>
+
+        <div class="idiomes">
+            <!-- comentario centrado con 3 links -->
+            <p>Ofrecido por Google en:
+            <a href="#">català</a>
+            <a href="#">galego</a>
+            <a href="#">euskara</a></p>
+        </div>   
+    </main>
+    
+    <footer>
+        <nav class="top">
+            <!-- enlace a la izq. solitario linea footer 1  -->
+            <a href="#">España</a>
+        </nav>
+
+
+        <div class="bottom">
+                <nav>
+                <!-- 3 enlaces a la izq. -->
+                    <a href="#">Publicidad</a>
+                    <a href="#">Empresa</a>
+                    <a href="#">Como funciona la búsqueda</a>
+                </nav>
+            
+                <div>
+         <!-- frase en medio o link version inglés a decidir -->
+                    <p><img src="./imagBuscador/hoja.png" alt="hoja">
+                    Tres décadas de acción climática: descubre lo que estamos haciendo</p>
+                </div>
+            
+                <nav>
+                <!-- 3links a la derecha -->
+                    <a href="#">Privacidad</a>
+                    <a href="#">Términos</a>
+                    <a href="#">Configuración</a>
+                </nav>
+            
+            </div>
+    </footer>
+</body>
+</html>
+
